@@ -1,4 +1,4 @@
-package com.daisybell.shoppinglist.presentation
+package com.daisybell.shoppinglist.presentation.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

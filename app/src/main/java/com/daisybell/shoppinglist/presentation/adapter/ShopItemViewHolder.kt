@@ -1,4 +1,4 @@
-package com.daisybell.shoppinglist.presentation
+package com.daisybell.shoppinglist.presentation.adapter
 
 import android.view.View
 import android.widget.TextView

@@ -1,4 +1,4 @@
-package com.daisybell.shoppinglist.presentation
+package com.daisybell.shoppinglist.presentation.adapter
 
 import androidx.recyclerview.widget.DiffUtil
 import com.daisybell.shoppinglist.domain.ShopItem

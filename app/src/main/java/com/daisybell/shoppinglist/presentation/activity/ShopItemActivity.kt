@@ -1,4 +1,4 @@
-package com.daisybell.shoppinglist.presentation
+package com.daisybell.shoppinglist.presentation.activity
 
 import android.content.Context
 import android.content.Intent
@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.daisybell.shoppinglist.R
 import com.daisybell.shoppinglist.domain.ShopItem
+import com.daisybell.shoppinglist.presentation.viewModel.ShopItemViewModel
 import com.google.android.material.textfield.TextInputLayout
 
 class ShopItemActivity : AppCompatActivity() {

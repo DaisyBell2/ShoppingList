@@ -1,4 +1,4 @@
-package com.daisybell.shoppinglist.presentation
+package com.daisybell.shoppinglist.presentation.viewModel
 
 import androidx.lifecycle.ViewModel
 import com.daisybell.shoppinglist.data.ShopListRepositoryImpl
