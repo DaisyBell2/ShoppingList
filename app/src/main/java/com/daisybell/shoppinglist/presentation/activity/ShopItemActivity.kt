@@ -8,7 +8,7 @@ import com.daisybell.shoppinglist.R
 import com.daisybell.shoppinglist.domain.ShopItem
 import com.daisybell.shoppinglist.presentation.fragment.ShopItemFragment
 
-class ShopItemActivity : AppCompatActivity() {
+class ShopItemActivity : AppCompatActivity(), ShopItemFragment.OnEditingFinishedListener {
 
     private var screenMode = MODE_UNKNOWN
     private var shopItemId = ShopItem.UNDEFINED_ID
@@ -22,6 +22,9 @@ class ShopItemActivity : AppCompatActivity() {
         }
     }
 
+    override fun onEditingFinished() {
+        finish()
+    }
 
     private fun launchRightMode() {
         val fragment = when (screenMode) {
